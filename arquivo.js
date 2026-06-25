@@ -1,4 +1,4 @@
-console.log("------- Jogo RPG --------");
+console.log("--------- Jogo RPG ---------");
 
 console.log("1. Criando inventário...");
 let inventario = ["Espada" , "Escudo", "Poção de Vida"];
@@ -21,7 +21,7 @@ if (inventario.includes("Poção de Vida")) {
     console.log("Poção de Vida não encontrada!");
 }
 
-console.log("Exercício 7: Itens do inventário");
+console.log("7. Itens do inventário:");
 for (let i = 0; i < inventario.length; i++) {
      console.log(`. ${inventario[i]}.`);
 }
